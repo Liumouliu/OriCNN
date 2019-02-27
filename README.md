@@ -27,6 +27,12 @@ ACT dataset densely cover the Canberra city, and a sample cross-view pair is dep
 Our ACT dataset has three subsets:
 
 1. [ACT-small](https://pages.github.com/). Small-scale dataset for training and validation.
+Note the number of training and validation cross-view image pairs are extractly the same as the [CVUSA dataset](https://github.com/viibridges/crossnet) 
+
+2. [ACT-test](https://pages.github.com/). large-scale dataset for testing.
+Note the number of testing cross-view image pairs are 10x bigger than [CVUSA dataset](https://github.com/viibridges/crossnet)
+
+Note the Recall@N metric for ACT dataset is slightly different from that used in [CVUSA dataset](https://github.com/viibridges/crossnet). Since CVUSA dataset structures 
 
 
 
