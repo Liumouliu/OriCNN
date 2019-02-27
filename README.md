@@ -26,7 +26,7 @@ ACT dataset densely cover the Canberra city, and a sample cross-view pair is dep
 
 Our ACT dataset has three subsets:
 
-1. ACT-small. small-scale for training and validation.
+1. [ACT-small](https://pages.github.com/). Small-scale dataset for training and validation.
 
 
 
