@@ -38,7 +38,7 @@ If you want to use [CVUSA dataset](https://github.com/viibridges/crossnet), firs
 For example:
 
 ```diff
-+ img_root = '..../..../CVUSA/'
+img_root = '..../..../CVUSA/'
 ```
 
 
