@@ -83,6 +83,24 @@ from input_data_ACT_test import InputData
 3. To test Geo-localization performances on [ACT_test]() dataset, run the matlab script [Recall@Geo.m](./CVPR2019_codes/Matlab/Recall@Geo.m). You also need to change the path (variable desc_path) to your descriptor file.
 
 
+# Publication
+
+If you like, you can cite the following publication:
+Liu Liu; Hongdong Li. Lending Orientation to Neural Networks for Cross-view Geo-localization. In IEEE Conference on Computer Vision and Pattern Recognition (CVPR), June 2019.
+
+@InProceedings{Liu_2019_CVPR,
+author = {Liu, Liu and Li, Hongdong},
+title = {Lending Orientation to Neural Networks for Cross-view Geo-localization},
+booktitle = {The IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
+month = {June},
+year = {2019}
+}
+
+
+
+
+
+
 
 
 
