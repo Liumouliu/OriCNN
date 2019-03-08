@@ -86,7 +86,7 @@ from input_data_ACT_test import InputData
 # Publication
 
 If you like, you can cite the following publication:
-Liu Liu; Hongdong Li. Lending Orientation to Neural Networks for Cross-view Geo-localization. In IEEE Conference on Computer Vision and Pattern Recognition (CVPR), June 2019.
+*Liu Liu; Hongdong Li. Lending Orientation to Neural Networks for Cross-view Geo-localization. In IEEE Conference on Computer Vision and Pattern Recognition (CVPR), June 2019.*
 
 @InProceedings{Liu_2019_CVPR,
 author = {Liu, Liu and Li, Hongdong},
