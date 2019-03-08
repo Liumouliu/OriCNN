@@ -85,7 +85,7 @@ from input_data_ACT_test import InputData
 
 # Publication
 
-If you like, you can cite the following publication:
+If you like, you can cite our following publication:
 
 *Liu Liu; Hongdong Li. Lending Orientation to Neural Networks for Cross-view Geo-localization. In IEEE Conference on Computer Vision and Pattern Recognition (CVPR), June 2019.*
 
@@ -97,6 +97,15 @@ booktitle = {The IEEE Conference on Computer Vision and Pattern Recognition (CVP
 month = {June},
 year = {2019}
 }
+
+and also the following prior works:
+
+1. Sixing Hu, Mengdan Feng, Rang M. H. Nguyen, Gim Hee Lee. CVM-Net: Cross-View Matching Network for Image-Based Ground-to-Aerial Geo-Localization. In IEEE Conference on Computer Vision and Pattern Recognition (CVPR), June 2018.
+
+2. Zhai, Menghua, et al. "Predicting ground-level scene layout from aerial imagery." Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition. 2017.
+
+3. Isola, Phillip, et al. "Image-to-image translation with conditional adversarial networks." Proceedings of the IEEE conference on computer vision and pattern recognition. 2017.
+
 
 
 
