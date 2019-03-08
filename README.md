@@ -91,10 +91,15 @@ If you like, you can cite the following publication:
 
 
 @InProceedings{Liu_2019_CVPR,
+
 author = {Liu, Liu and Li, Hongdong},
+
 title = {Lending Orientation to Neural Networks for Cross-view Geo-localization},
+
 booktitle = {The IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
+
 month = {June},
+
 year = {2019}
 }
 
