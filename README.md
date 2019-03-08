@@ -33,7 +33,7 @@ Some may want to know how the training preformance improves along with epoches, 
 
 ## Codes for [CVUSA dataset](https://github.com/viibridges/crossnet)
 
-If you want to use [CVUSA dataset](https://github.com/viibridges/crossnet), first download it, and then modify the img_root variable in input_data_rgb_ori_m1_1_augument.py (line 12)
+If you want to use [CVUSA dataset](https://github.com/viibridges/crossnet), first download it, and then modify the img_root variable in [input_data_rgb_ori_m1_1_augument.py](./CVPR2019_codes/OriNet_CVUSA/input_data_rgb_ori_m1_1_augument.py) (line 12)
 
 For example:
 
