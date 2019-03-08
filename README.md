@@ -29,13 +29,6 @@ Note the number of testing cross-view image pairs are 10x bigger than [CVUSA dat
 Our model is implemented in Tensorflow 1.4.0. Other tensorflow versions should be OK.
 All our models are trained from scratch, so please run the training codes to obtain models.
 
-Specifically:
-
-train_CVUSA.py is used to train model for CVUSA dataset.
-train_CVACT.py is used to train model for CVACT dataset.
-
-The model will be saved after each epoch in directory /src/Models/. The accuracy on test set is computed after each epoch and is saved in directory /src/Result/.
-
 For pre-trained model on CVUSA dataset, please download [CVUSA_model](https://drive.google.com/file/d/1_kkBw1oIHbmsikTL9VJJTL_WLMD_B_R5/view?usp=sharing)
 
 For pre-trained model on CVACT dataset, please download [CVACT_model](https://drive.google.com/file/d/14Yd0-ICAaABQQlWaGjSkDsH8L3YUuML0/view?usp=sharing)
