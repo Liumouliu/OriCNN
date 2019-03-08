@@ -41,6 +41,15 @@ For example:
 img_root = '..../..../CVUSA/'
 ```
 
+For training, run:
+```diff
+python train_deep6_scratch_m1_1_concat3conv_rgb_ori_gem_augment.py
+```
+For testing, run:
+```diff
+python eval_deep6_scratch_m1_1_concat3conv_rgb_ori_gem_augment.py
+```
+
 
 
 # ACT dataset
