@@ -197,7 +197,7 @@ class InputData:
             img_radis = (self.yaw_sat['polor_mat'][:, :, 1].astype(np.float32) - 0.5) * 2.0
 
             if img is None or img.shape[0] != img.shape[1]:
-                print('InputData::next_pair_batch: read fail: %s, %d, ' % (self.trainList[img_idx][4], i))
+                # print('InputData::next_pair_batch: read fail: %s, %d, ' % (self.trainList[img_idx][4], i))
                 continue
             rand_crop = random.randint(1, 1198)
             if rand_crop > self.satSize:
