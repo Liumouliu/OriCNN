@@ -40,7 +40,7 @@ Some may want to know how the training preformance improves along with epoches, 
 [recalls_epoches_CVUSA](https://drive.google.com/file/d/15KN_N8Dc1FzRthDyW_1eeiAXWrGchzNv/view?usp=sharing) and [recalls_epoches_CVACT](https://drive.google.com/file/d/1l1pfw9PSkswk1phVWyHed_31FoG0ZsQM/view?usp=sharing).  
 
 
-## Codes for [CVUSA dataset](https://github.com/viibridges/crossnet)
+## Codes for CVUSA dataset
 
 If you want to use [CVUSA dataset](https://github.com/viibridges/crossnet), first download it, and then modify the img_root variable in [input_data_rgb_ori_m1_1_augument.py](./CVPR2019_codes/OriNet_CVUSA/input_data_rgb_ori_m1_1_augument.py) (line 12)
 
@@ -66,7 +66,7 @@ To calculate the recall@N figures, you need to use the extracted feature embeddi
 Some may want to know how the cross-view orientations are defined, please refer to [ground_view_orientations](./CVPR2019_codes/OriNet_CVUSA/CVUSA_orientations/yaw_pitch_grd_CVUSA.mat) and [satellite_view_orientations](./CVPR2019_codes/OriNet_CVUSA/CVUSA_orientations/yaw_radius_sat_CVUSA.mat)
 
 
-## Codes for [CVACT dataset]
+## Codes for CVACT dataset
 
 Most of the steps for ACT dataset are the same as CVUSA dataset. The differences are:
 
