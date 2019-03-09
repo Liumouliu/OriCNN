@@ -39,6 +39,9 @@ we also include the pre-extracted feature embeddings, in case you want to direct
 Some may want to know how the training preformance improves along with epoches, please refer to 
 [recalls_epoches_CVUSA](https://drive.google.com/file/d/15KN_N8Dc1FzRthDyW_1eeiAXWrGchzNv/view?usp=sharing) and [recalls_epoches_CVACT](https://drive.google.com/file/d/1l1pfw9PSkswk1phVWyHed_31FoG0ZsQM/view?usp=sharing).  
 
+Some may want to know how the cross-view orientations are defined, please refer to [ground_view_orientations](./CVPR2019_codes/OriNet_CVUSA/CVUSA_orientations/yaw_pitch_grd_CVUSA.mat) and [satellite_view_orientations](./CVPR2019_codes/OriNet_CVUSA/CVUSA_orientations/yaw_radius_sat_CVUSA.mat)
+
+
 
 ## Codes for CVUSA dataset
 
@@ -63,7 +66,7 @@ Recall@1% is automatically calculated after running the evaluation script, and i
 
 To calculate the recall@N figures, you need to use the extracted feature embeddings, and run the matlab script [Recall@N.m](./CVPR2019_codes/Matlab/Recall@N.m). You also need to change the path (variable desc_path) to your descriptor file.
 
-Some may want to know how the cross-view orientations are defined, please refer to [ground_view_orientations](./CVPR2019_codes/OriNet_CVUSA/CVUSA_orientations/yaw_pitch_grd_CVUSA.mat) and [satellite_view_orientations](./CVPR2019_codes/OriNet_CVUSA/CVUSA_orientations/yaw_radius_sat_CVUSA.mat)
+
 
 
 ## Codes for CVACT dataset
