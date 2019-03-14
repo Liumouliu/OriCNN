@@ -29,11 +29,11 @@ Note the number of testing cross-view image pairs are 10x bigger than [CVUSA dat
 Our model is implemented in Tensorflow 1.4.0. Other tensorflow versions should be OK.
 All our models are trained from scratch, so please run the training codes to obtain models.
 
-For pre-trained model on CVUSA dataset, please download [CVUSA_model](https://drive.google.com/file/d/1_kkBw1oIHbmsikTL9VJJTL_WLMD_B_R5/view?usp=sharing)
+For pre-trained model on CVUSA dataset, please download [CVUSA_model](https://drive.google.com/file/d/1oFUzLJkGXKLBabxYGzLNMSfeWW-gF3LP/view?usp=sharing)
 
 For pre-trained model on CVACT dataset, please download [CVACT_model](https://drive.google.com/file/d/14Yd0-ICAaABQQlWaGjSkDsH8L3YUuML0/view?usp=sharing)
 
-In the above [CVUSA_model](https://drive.google.com/file/d/1_kkBw1oIHbmsikTL9VJJTL_WLMD_B_R5/view?usp=sharing) and [CVACT_model](https://drive.google.com/file/d/14Yd0-ICAaABQQlWaGjSkDsH8L3YUuML0/view?usp=sharing),
+In the above [CVUSA_model](https://drive.google.com/file/d/1oFUzLJkGXKLBabxYGzLNMSfeWW-gF3LP/view?usp=sharing) and [CVACT_model](https://drive.google.com/file/d/14Yd0-ICAaABQQlWaGjSkDsH8L3YUuML0/view?usp=sharing),
 we also include the pre-extracted feature embeddings, in case you want to directly use them.
 
 Some may want to know how the training preformance improves along with epoches, please refer to 
