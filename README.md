@@ -64,7 +64,7 @@ python eval_deep6_scratch_m1_1_concat3conv_rgb_ori_gem_augment.py
 
 Recall@1% is automatically calculated after running the evaluation script, and is saved to [PreTrainModel folder](./CVPR2019_codes/OriNet_CVUSA/PreTrainModel).
 
-To calculate the recall@N figures, you need to use the extracted feature embeddings, and run the matlab script [Recall@N.m](./CVPR2019_codes/Matlab/Recall@N.m). You also need to change the path (variable desc_path) to your descriptor file.
+To calculate the recall@N figures, you need to use the extracted feature embeddings, and run the matlab script [RecallN.m](./CVPR2019_codes/Matlab/RecallN.m). You also need to change the path (variable desc_path) to your descriptor file.
 
 
 
@@ -83,7 +83,7 @@ That is to say: change the first line to
 from input_data_ACT_test import InputData
 ```
 
-3. To test Geo-localization performances on [ACT_test](https://cloudstor.aarnet.edu.au/plus/s/fTtFm4kOYoH6SD0/download) dataset, run the matlab script [Recall@Geo.m](./CVPR2019_codes/Matlab/Recall@Geo.m). You also need to change the path (variable desc_path) to your descriptor file.
+3. To test Geo-localization performances on [ACT_test](https://cloudstor.aarnet.edu.au/plus/s/fTtFm4kOYoH6SD0/download) dataset, run the matlab script [RecallGeo.m](./CVPR2019_codes/Matlab/RecallGeo.m). You also need to change the path (variable desc_path) to your descriptor file.
 
 
 # Publication
