@@ -5,7 +5,7 @@ clc;
 
 desc_path = 'PUT YOUR DESCRIPTOR PATH HERE!!!!!!!!!!!';
 
-desc = load('desc_path')
+desc = load(desc_path)
 
 load('../OriNet_CVACT/CVACT_orientations/ACT_data.mat');
 
