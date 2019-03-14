@@ -4,7 +4,7 @@ clc;
 
 desc_path = 'PUT YOUR DESCRIPTOR PATH HERE!!!!!!!!!!!';
 
-desc = load('desc_path')
+desc = load(desc_path)
 
 sat_desc = single(desc.sat_global_descriptor);
 grd_desc = single(desc.grd_global_descriptor);
