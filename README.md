@@ -74,16 +74,16 @@ To calculate the recall@N figures, you need to use the extracted feature embeddi
 Most of the steps for ACT dataset are the same as CVUSA dataset. The differences are:
 
 1. [input_data_ACT.py](./CVPR2019_codes/OriNet_CVACT/input_data_ACT.py) is used in [train_deep6_scratch_m1_1_concat3conv_rgb_ori_gem_ACT.py](./CVPR2019_codes/OriNet_CVACT/train_deep6_scratch_m1_1_concat3conv_rgb_ori_gem_ACT.py) to train CNNs.
-It uses the [ACT_small](https://cloudstor.aarnet.edu.au/plus/s/pLuD3t6fokxHLzK/download) dataset for fast training.
+It uses the ACT_small dataset for fast training.
 
-2. To test Geo-localization performances on [ACT_test](https://cloudstor.aarnet.edu.au/plus/s/fTtFm4kOYoH6SD0/download) dataset, you need to use [input_data_ACT_test.py](./CVPR2019_codes/OriNet_CVACT/input_data_ACT_test.py) in the evaluation script [eval_deep6_scratch_m1_1_concat3conv_rgb_ori_gem_ACT.py](./CVPR2019_codes/OriNet_CVACT/eval_deep6_scratch_m1_1_concat3conv_rgb_ori_gem_ACT.py).
+2. To test Geo-localization performances on ACT_test dataset, you need to use [input_data_ACT_test.py](./CVPR2019_codes/OriNet_CVACT/input_data_ACT_test.py) in the evaluation script [eval_deep6_scratch_m1_1_concat3conv_rgb_ori_gem_ACT.py](./CVPR2019_codes/OriNet_CVACT/eval_deep6_scratch_m1_1_concat3conv_rgb_ori_gem_ACT.py).
 
 That is to say: change the first line to 
 ```diff
 from input_data_ACT_test import InputData
 ```
 
-3. To test Geo-localization performances on [ACT_test](https://cloudstor.aarnet.edu.au/plus/s/fTtFm4kOYoH6SD0/download) dataset, run the matlab script [RecallGeo.m](./CVPR2019_codes/Matlab/RecallGeo.m). You also need to change the path (variable desc_path) to your descriptor file.
+3. To test Geo-localization performances on ACT_test dataset, run the matlab script [RecallGeo.m](./CVPR2019_codes/Matlab/RecallGeo.m). You also need to change the path (variable desc_path) to your descriptor file.
 
 
 # Publication
