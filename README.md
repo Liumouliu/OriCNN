@@ -15,12 +15,12 @@ ACT dataset densely cover the Canberra city, and a sample cross-view pair is dep
 
 ![alt text](./sat_img.png)
 
-Our ACT dataset has two subsets:
+Our ACT dataset has two subsets (Contact me for the dataset, Liu.Liu@anu.edu.au):
 
-1. [ACT_small](https://cloudstor.aarnet.edu.au/plus/s/pLuD3t6fokxHLzK/download). Small-scale dataset for training and validation.
+1. ACT_small. Small-scale dataset for training and validation.
 Note the number of training and validation cross-view image pairs are extractly the same as the [CVUSA dataset](https://github.com/viibridges/crossnet) 
 
-2. [ACT_test](https://cloudstor.aarnet.edu.au/plus/s/fTtFm4kOYoH6SD0/download). Large-scale dataset for testing.
+2. ACT_test. Large-scale dataset for testing.
 Note the number of testing cross-view image pairs are 10x bigger than [CVUSA dataset](https://github.com/viibridges/crossnet)
 
 # Codes and Models
