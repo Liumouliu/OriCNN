@@ -23,6 +23,9 @@ Note the number of training and validation cross-view image pairs are extractly 
 2. ACT_test. Large-scale dataset for testing.
 Note the number of testing cross-view image pairs are 10x bigger than [CVUSA dataset](https://github.com/viibridges/crossnet)
 
+To download the dataset, I would suggest using wget. For example:
+wget --continue --progress=dot:mega --tries=0 THE_LINK_I_SEND_YOU
+
 # Codes and Models
 
 ## Overview
