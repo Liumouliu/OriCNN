@@ -28,7 +28,7 @@ wget --continue --progress=dot:mega --tries=0 THE_LINK_I_SEND_YOU
 
 The suffix of downloaded zip file is tar.gz
 
-+ Note that the dataset is ONLY permitted to be used for research.
+** Note that the dataset is ONLY permitted to be used for research.
 
 # Codes and Models
 
