@@ -28,7 +28,7 @@ wget --continue --progress=dot:mega --tries=0 THE_LINK_I_SEND_YOU
 
 The suffix of downloaded zip file is tar.gz
 
-If you fail to extract the compressed files, the most convenient way to solve the problem is using WinRAR on a Windows PC
+If you fail to extract the compressed files on Ubuntu, the most convenient way to solve the problem is using WinRAR on a Windows PC
 
 **Note that the dataset is ONLY permitted to be used for research.**
 
