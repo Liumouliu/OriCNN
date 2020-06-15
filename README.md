@@ -30,7 +30,7 @@ The suffix of downloaded zip file is tar.gz
 
 If you fail to extract the compressed files on Ubuntu, a convenient way to solve the problem is using WinRAR on a Windows PC
 
-**Note that the dataset is ONLY permitted to be used for research. Don't distribute. **
+**Note that the dataset is ONLY permitted to be used for research. Don't distribute.**
 
 # Codes and Models
 
